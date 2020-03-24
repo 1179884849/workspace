@@ -4,7 +4,7 @@ CFLAGS := -Wall -o -g -fPIC
 
 INCLUDE_PATH := -I ../include .
 LIB_PATH = ../lib
-TARGET := libThreadPool
+TARGET := libDoubleList
 SHARE_TARGET = $(LIB_PATH)/$(TARGET).so
 STATIC_TARGET = $(LIB_PATH)/$(TARGET).a
 
